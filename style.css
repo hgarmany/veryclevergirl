@@ -1,13 +1,19 @@
 body {
 	background-color: #FF6666;
 }
+
+h1 {
+	font-family: juice_itc;
+	color: #FF6666;
+}
+
 p {
 	font-family: verdana;
-	color: pink;
+	color: #FF6666;
 }
 
 @font-face {
-    font-family: 'juice_itc';
+    font-family: "juice_itc";
     src: url('juice_itc.eot');
     src: url('juice_itc.eot?#iefix') format('embedded-opentype'),
          url('juice_itc.woff') format('woff'),
@@ -15,4 +21,13 @@ p {
          url('juice_itc.svg#juice_itcregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+	
+.post {
+	width: 45%;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	padding: 16px;
 }
