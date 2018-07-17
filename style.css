@@ -1,0 +1,18 @@
+body {
+	background-color: #FF6666;
+}
+p {
+	font-family: verdana;
+	color: pink;
+}
+
+@font-face {
+    font-family: 'juice_itc';
+    src: url('juice_itc.eot');
+    src: url('juice_itc.eot?#iefix') format('embedded-opentype'),
+         url('juice_itc.woff') format('woff'),
+         url('juice_itc.ttf') format('truetype'),
+         url('juice_itc.svg#juice_itcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
