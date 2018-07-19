@@ -56,6 +56,16 @@ p {
 	padding: 16px;
 }
 
+.block_text {
+	min-width: 400px;
+	max-width: 75%;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	padding: 16px;
+}
+
 .bg_overlay {
     position: fixed;
     top: 0;
