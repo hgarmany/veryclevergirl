@@ -2,6 +2,7 @@
 
 <html xmlns='https://www.w3.org/1999/xhtml/'>
 <head>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 	<link rel='stylesheet' href='style.css'>
 	<title>Very Clever Girl</title>
 </head>
@@ -13,12 +14,11 @@
 <center>
 <!-- Title and Quote -->
 <header>
-	<br>
+	<br><br><br><br><br>
 	<div class='container'>
-		<font size='12' face='juice_itc' color='FF6666'>
-			<br>
-			<a href='index.html' style='text-decoration:none; color: #FF6666;'><b>Very Clever Girl</b></a>
-		</font>
+		<a href='index.html'>
+			<img src='images/assets/title_bold.png' style='min-width:400px; max-width:50%; border:0;'>
+		</a>
 	</div>
 	<br>
 	<div class='container'>
@@ -31,6 +31,21 @@
 </header>
 
 <!-- Posts -->
+<script type="text/javascript">
+	function loadFile(filePath) {
+		var result = null;
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", filePath, false);
+		xmlhttp.send();
+		if (xmlhttp.status==200) {
+			result = xmlhttp.responseText;
+			result = result.split();
+		}
+		document.write(result);
+	}
+</script>
+
+
 <div class='post'>
 	<h1>Inspired by Mom Soldered Ornaments</h1>
 	<a href='https://stampington.com/Mom-Inspired-Soldered-Ornaments-Project' target='_blank'>
@@ -66,9 +81,13 @@
 
 <!-- Header Bar -->
 <div id="header_bar">
-    <div class='centered'>
+    <div class='vcentered'>
         <a data-pin-do="buttonFollow" href="https://www.pinterest.com/oldenough2know/boards/">VeryCleverGirl</a>
     </div>
+	<font face='verdana'>
+		<a href='about.html' style='text-decoration: none; color: white;'>About</a>
+		| Blog | Contact
+	</font>
 </div>
 
 <br><br><br>
@@ -77,5 +96,4 @@
     async defer
     src="//assets.pinterest.com/js/pinit.js"
 ></script>
-</body>
 </html>
