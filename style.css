@@ -13,6 +13,13 @@ p {
 	color: #FF6666;
 }
 
+hr.dotted {
+  border: none;
+  border-top: 10px dotted #CC9900;
+  min-width: 400px;
+  max-width: 45%;
+}
+
 @font-face {
     font-family: 'juice_itc';
     src: url('juice_itc.eot');
@@ -33,6 +40,11 @@ p {
 	background: #998600;
 	padding: 15px;
 	text-align: right;
+}
+
+a.header {
+	text-decoration: none;
+	color: white;
 }
 
 .container {
