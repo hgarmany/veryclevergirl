@@ -20,6 +20,11 @@ hr.dotted {
   max-width: 45%;
 }
 
+ul.heart {
+	list-style-image: url('images/assets/icon_heart.png');
+	image-width: 30px;
+}
+
 @font-face {
     font-family: 'juice_itc';
     src: url('juice_itc.eot');
@@ -40,6 +45,14 @@ hr.dotted {
 	background: #998600;
 	padding: 15px;
 	text-align: right;
+}
+
+#logo {
+	position: absolute;
+	top: 70px;
+	left: 5%;
+	min-width: 100px;
+	max-width: 12%;
 }
 
 a.header {
@@ -80,10 +93,9 @@ a.header {
 	min-width: 400px;
 	max-width: 75%;
 	position: relative;
-	text-align: center;
 	background-color: white;
 	margin: auto;
-	padding: 16px;
+	padding: 32px;
 }
 
 .bg_overlay {
@@ -93,4 +105,10 @@ a.header {
     right: 0;
     bottom: 0;
 	opacity: 0.75;
+}
+
+.image_pair {
+	width: 90%;
+	margin: auto;
+	padding: 10px 0;
 }
